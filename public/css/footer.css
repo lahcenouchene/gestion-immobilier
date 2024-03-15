@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.footer {
+    background-color: #323232;
+    padding: 2em 1em;
+
+
+}
+
+.box1 {
+    padding: 1em;
+    display: grid;
+    border-left: #d8f2fa;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.box1 p{
+    width: 70%;
+    text-align: justify;
+
+}
+
+.box2 {
+    padding: 3em 5em;
+    display: inline-block;
+    border-right: #bee4f0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box2 i {
+    padding: 10px;
+    margin: 10px;
+}
+
+.bx {
+    margin-top: 2em;
+    padding: 3em 1em;
+    background-color: #c2e6ffd2;
+    color: #48413a;
+    
+}
+.bx h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1d0a71;
+}
+
+.box2 a {
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.footer .box-container {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    padding-bottom: 10px;
+}
+
+.footer .box-container .boxx h3 {
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+.footer .box-container .boxx a {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 1rem;
+    color: #eeeeee;
+    text-decoration: none;
+
+}
+
+.footer .box-container .boxx a i {
+    padding-right: .3rem;
+
+}
+
+.footer .box-container .boxx a:hover {
+    color: #10adcc;
+    transition: 600ms;
+}
+
+.footer .credit {
+    text-align: center;
+  /*   padding-top: 5px;
+    margin-top: 5px; */
+    color: rgb(255, 255, 255);
+
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+@media screen and (max-width: 767px) {
+    /* Box container */
+    .footer .box-container {
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    /* Boxes */
+    .box1, .box2, .bx {
+      padding: 1em;
+      text-align: center;
+    }
+  
+    .box2 {
+      padding: 1em;
+      border-right: none;
+      border-bottom: #bee4f0;
+    }
+  
+    .bx {
+      margin-top: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    /* Box container */
+    .footer .box-container {
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .footer .box-container .boxx img{
+ display: block;
+ padding-top: 100px;
+  }

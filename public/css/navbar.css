@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+nav{
+    position: relative;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-item b{
+    font-size: 1rem;
+}
+#navv nav{
+    position: unset;
+}
+.btn-infodep {
+
+    display: inline-block;
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+text-align: center;
+    background-color:#10b1ff;;
+
+    padding: 5px;
+    margin: 5px;
+
+    text-decoration: none;
+    color: #f8ddcc;
+
+
+}
+
+.btn-infodep:hover {
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #e6800c;
+    width: 150px;
+    padding: 5px;
+ 
+   transition: 400ms;
+    text-decoration: none;
+    color: #f6f6f6;
+
+
+
+}
+.btn-infodepdec {
+
+    display: inline-block;
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+    text-align: center;
+    background-color:#10b1ff;
+    padding: 5px 0px;
+    margin: auto;
+
+    text-decoration: none;
+    color: #f8ddcc;
+
+
+}
+
+.btn-infodepdec:hover {
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #e6800c;
+    width: 150px;
+    padding: 5px 0px;
+  margin: auto;
+   transition: 400ms;
+    text-decoration: none;
+    color: #f6f6f6;
+
+
+
+}
+.btn-infodep1 {
+
+    display: inline-block;
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+text-align: center;
+    background-color:#7b8083;;
+
+    padding: 5px;
+    margin: 5px;
+
+    text-decoration: none;
+    color: #fefcfa;
+
+
+}
+
+.btn-infodep1:hover {
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #d9d2d2;
+    
+    width: 150px;
+    padding: 5px;
+
+   transition: 400ms;
+    text-decoration: none;
+    color: #434242;
+
+
+
+}
+.btn-infodep3 {
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    width: max-content;
+  
+    border: none;
+margin-top: 20px;
+    background-color:#6e7172;
+    margin-bottom: 10px;
+
+    padding: 10px 10px;
+    margin-left: 20px;
+
+    text-decoration: none;
+    color: #fefcfa;
+
+
+}
+
+.btn-infodep3:hover {
+
+   
+    border-radius: 50px;
+    background-color: #cdc3c3;   
+    transition: 400ms;
+    color: #605858;
+
+}
+
+
+.btn-infodepan {
+    border-radius: 50px;
+    width: 170px;
+    border: none;
+text-align: center;
+/* height: fit-content; */
+    background-color:#7b8083;
+    text-decoration: none;
+    color: #fefcfa;
+
+}
+
+.btn-infodepan:hover {
+    text-align: center;
+    border-radius: 50px;
+    background-color: #d9d2d2;
+    width: 170px;
+   /*  height: fit-content; */
+   transition: 400ms;
+    text-decoration: none;
+    color: #434242;
+
+}
+

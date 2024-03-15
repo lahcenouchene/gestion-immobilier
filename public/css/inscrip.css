@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    background-color: #f5f5f5;
+}
+.form{
+    margin: 1em;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+form{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(209, 209, 209);
+}
+#btncompte {
+    color: #1d0a71;
+    background-color: transparent;
+    border: 1px solid #1d0a71;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form h1{
+    font-size: 2rem;
+   text-align: center; 
+   font-family: 'Montserrat', sans-serif;   
+   margin-top: 0.5em; 
+   color: rgb(255, 115, 0);
+}
+
+#btncompte:hover{
+    background-color: #1d0a71;
+    color: #ffffff;
+}
+.imageanim {
+ margin: 3em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    background-color: #f5f5f5;
+}
+.form{
+    margin: 1em;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+form{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+#btncompte {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: #1d0a71f1;
+    border: 1px solid #1d0a71f1;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#btncnx{
+    font-family: 'Montserrat', sans-serif;
+    color: #1d0a71;
+    background-color: transparent;
+    border: 1px solid #1d0a71;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+   
+}
+#btncnx:hover{
+    color: #ffffff;
+    background-color: #1d0a71f1;
+    transition: 600ms;
+   
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form h1{
+    font-size: 2rem;
+   text-align: center; 
+   font-family: 'Montserrat', sans-serif;   
+   margin-top: 0.5em; 
+   color: rgb(255, 115, 0);
+}
+.btnmove{
+    /* border-bottom: 1px solid #000; */
+    text-align: center;
+    margin-bottom: 5px;
+   
+}
+#btncompte:hover{
+    background-color: #170569;
+    color: #ffffff;
+}
+.imageanim {
+ margin: 3em;
+}
+

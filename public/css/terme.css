@@ -1,0 +1,30 @@
+.terms-container {
+
+  max-width:100%;
+  margin: 20px 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+ color:orange;
+}
+h5{
+  font-weight: bold;
+}
+
+.terms-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.accept-terms {
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,294 @@
+/* ********************** css section carte******************* */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+#sec1{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.carte{
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgba(88, 88, 88, 0.24) 0px 3px 8px;
+    margin: 20px;
+    animation-name: animec;
+	animation-duration: 4s;
+	animation-iteration-count: initial;
+	animation-direction: initial;
+}
+@keyframes animec{
+	from{	
+		margin-top: 0%;
+	}
+	to{
+		margin-top:4em;
+	}
+}
+.divimg{
+    height: 200px;
+}
+.divimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info{
+    
+    padding: 25px;
+    /* text-align: justify; */
+}
+.info h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #1d0a71;
+    margin-bottom: 20px;
+}
+.info p{
+    color: #4e463f;
+    font-size: 15px;
+}
+.btncarte{
+    border: none;
+    background-color: #ff7f2f;
+    padding: 8px 40px;
+    box-shadow: rgba(88, 88, 88, 0.24) 0px 3px 8px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+.divbtn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    /* color type A */
+    --line_color: #1d0a71;
+    --back_color: #ff7f2f;
+  
+    /* color type B */
+    /* --line_color : #1b1919 ;
+      --back_color : #E9ECFF  ; */
+  
+    /* color type C */
+    /* --line_color : #00135C ;
+      --back_color : #DEFFFA  ; */
+  }
+  
+  .buttonn {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 0;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--line_color);
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+  }
+  .button__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .buttonn::before,
+  .buttonn::after,
+  .button__text::before,
+  .button__text::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--line_color);
+    transition: all 0.5s ease;
+  }
+  .buttonn::before {
+    top: 0;
+    left: 54px;
+    width: calc(100% - 56px * 2 - 16px);
+  }
+  .buttonn::after {
+    top: 0;
+    right: 54px;
+    width: 8px;
+  }
+  .button__text::before {
+    bottom: 0;
+    right: 54px;
+    width: calc(100% - 56px * 2 - 16px);
+  }
+  .button__text::after {
+    bottom: 0;
+    left: 54px;
+    width: 8px;
+  }
+  .button__line {
+    position: absolute;
+    top: 0;
+    width: 56px;
+    height: 100%;
+    overflow: hidden;
+  }
+  .button__line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 300px;
+    border: solid 2px var(--line_color);
+  }
+  .button__line:nth-child(1),
+  .button__line:nth-child(1)::before {
+    left: 0;
+  }
+  .button__line:nth-child(2),
+  .button__line:nth-child(2)::before {
+    right: 0;
+  }
+  .buttonn:hover {
+    letter-spacing: 6px;
+  }
+  .buttonn:hover::before,
+  .buttonn:hover .button__text::before {
+    width: 8px;
+  }
+  .buttonn:hover::after,
+  .buttonn:hover .button__text::after {
+    width: calc(100% - 56px * 2 - 16px);
+  }
+  .button__drow1,
+  .button__drow2 {
+    position: absolute;
+    z-index: -1;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+  }
+  .button__drow1 {
+    top: -16px;
+    left: 40px;
+    width: 32px;
+    height: 0;
+    transform: rotate(30deg);
+  }
+  .button__drow2 {
+    top: 44px;
+    left: 77px;
+    width: 32px;
+    height: 0;
+    transform: rotate(-127deg);
+  }
+  .button__drow1::before,
+  .button__drow1::after,
+  .button__drow2::before,
+  .button__drow2::after {
+    content: "";
+    position: absolute;
+  }
+  .button__drow1::before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-60deg);
+  }
+  .button__drow1::after {
+    top: -10px;
+    left: 45px;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(69deg);
+  }
+  .button__drow2::before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-146deg);
+  }
+  .button__drow2::after {
+    bottom: 26px;
+    left: -40px;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-262deg);
+  }
+  .button__drow1,
+  .button__drow1::before,
+  .button__drow1::after,
+  .button__drow2,
+  .button__drow2::before,
+  .button__drow2::after {
+    background: var(--back_color);
+    opacity: 0.6;
+  }
+  .buttonn:hover .button__drow1 {
+    animation: drow1 ease-in 0.06s;
+    animation-fill-mode: forwards;
+  }
+  .buttonn:hover .button__drow1::before {
+    animation: drow2 linear 0.08s 0.06s;
+    animation-fill-mode: forwards;
+  }
+  .buttonn:hover .button__drow1::after {
+    animation: drow3 linear 0.03s 0.14s;
+    animation-fill-mode: forwards;
+  }
+  .buttonn:hover .button__drow2 {
+    animation: drow4 linear 0.06s 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .buttonn:hover .button__drow2::before {
+    animation: drow3 linear 0.03s 0.26s;
+    animation-fill-mode: forwards;
+  }
+  .buttonn:hover .button__drow2::after {
+    animation: drow5 linear 0.06s 0.32s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes drow1 {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 100px;
+    }
+  }
+  @keyframes drow2 {
+    0% {
+      width: 0;
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    11% {
+      opacity: 1;
+    }
+    100% {
+      width: 90px;
+    }
+  }
+ 
+  @keyframes drow4 {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 100px;
+    }
+  }
+  

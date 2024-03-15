@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contract-details {
+    margin-bottom: 30px;
+}
+
+.contract-details h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contract-details p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.signature-section {
+    text-align: center;
+}
+
+.signature-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.signatory {
+    margin-bottom: 20px;
+}
+
+.signatory p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.signatory img {
+    max-width: 200px;
+    max-height: 100px;
+    border: 1px solid #ccc;
+}
+@media print {
+    #print-button {
+        display: none !important;
+    }
+}
+
+/* Styles du bouton d'impression */
+.print-button {
+background-color: royalblue;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+border-radius: 30px;
+
+}
+
+/* Styles du bouton d'impression au survol */
+.print-button:hover {
+background-color: #0056b3;
+}
+
+/* Styles du bouton d'impression lorsque pressé */
+.print-button:active {
+background-color: #003a80;
+}
+
+/* Styles du bouton d'impression pour l'impression */
+@media print {
+.print-button {
+display: none;
+}
+}
+.contract {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contract-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contract-section {
+    margin-bottom: 20px;
+}
+
+.contract-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contract-section p {
+    margin-bottom: 5px;
+}
+
+.contract-signatures {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contract-signatures p {
+    margin-bottom: 5px;
+}
